@@ -1,0 +1,3 @@
+chatGPT prompts : 
+
+- Question simple: j'ai un fichier .par qui ressemble a "1.5 # L_1 : longueur du segment 1" et qui a 23 lignes, donc je veux attribuer la valeur numerique a une variable qui a comme nom par exemple L_1, mais ce nom va changer dependemment de la ligne, donc il doit correspondre uniquement au premier mot avant le premier espace du commentaire. J'ai deja essayer d'importer le fichier avec np.loadtxt, mais il me donne seuoement les valeurs numeriques, donc celles qui sont pas en commentaires. avec csv.reader, il me met toutes les donnees sous la meme rangee, donc impossible de crreer un dictionnaire
